@@ -1,0 +1,23 @@
+/* .tableWrapper {
+  margin: 15px auto;
+  background-color: rgb(73, 213, 127);
+  width: 60%;
+  border-radius: 2%;
+  height: 100%;
+} */
+
+.accord {
+  padding: 15px;
+  margin: 15px auto;
+  text-align: left;
+  align-items: right;
+  background-color: rgb(80, 177, 117);
+  height: 100%;
+scroll-behavior: auto;
+overflow-y: scroll;
+height: 630px;
+/* overflow: auto; */
+border-radius: 3px;
+
+}
+

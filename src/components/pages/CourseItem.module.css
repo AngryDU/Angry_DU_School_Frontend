@@ -1,0 +1,20 @@
+.lessonItemCategories{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 2px solid blueviolet;
+    padding-bottom:15px ;
+}
+
+
+
+.courseItemsSameStudent td{
+    padding-left:40px ;
+}
+
+.courseItemsSameStudent td:first-child::before{
+padding-left: none;
+}

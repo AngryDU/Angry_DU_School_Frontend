@@ -1,0 +1,100 @@
+
+.container{
+  top: 0;
+   width: 100%;
+   height:995px;
+   margin: 0;
+   background-color:rgb(91, 210, 136);
+   display: flex;
+   flex-direction:column;
+
+
+
+   }
+
+.filter{
+  background-color: rgb(149, 85, 209);
+}
+.orderCard{background-color: rgb(91, 210, 136);
+  display: flex;
+  flex-direction:row;
+  align-items:baseline;
+  padding-left:15px ;
+}
+
+
+.listPlusDialogmodal{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(91, 210, 136);
+  justify-content: space-between;
+}
+
+.dialogModal{
+  width: 33%;
+  margin: 15px 10px 0 10px ;
+  height: 600px;
+}
+
+
+
+
+.orderList {
+  width: 70%;
+  background-color: rgb(91, 210, 136);
+
+}
+
+
+.heading{
+   width: 100%;
+  color: rgb(140, 214, 214);
+  text-align: center;
+  font: 300 10px Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+p, select{
+  font: 600 23px Roboto;
+  text-align: left;
+}
+
+.all-orders, choice-subject, search-field{
+  display: flex;
+  align-items: baseline;
+justify-content: space-between;
+}
+
+.select-filter{
+ max-width: 100%;
+min-width: 350px;}
+
+
+.btn-choice-subject, .btn-all-orders, .btn-search-input{
+  padding: 0.5em 0.7em; /*Расстояние от текста до края */
+  background-color: #65bba7; /* Цвет фона */
+  color: #161414; /* Белый цвет текста */
+  border: none; /* Убираем рамку */
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5); /* Тень под кнопкой */
+  transition: 0.3s; /* Время перехода */
+  position: relative; /* Относительное позиционирование */
+  top: 0; left: 0; /* Исходное положение */
+  margin:10px 15px;
+  font: 600 19px Roboto;
+}
+.btn-choice-subject:active,.btn-all-orders:active, btn-search-input:active {
+  box-shadow: none; /* Убираем тень */
+  top: 4px; left: 4px; /* Смещаем кнопку вниз и вправо */
+ }
+ .btn-choice-subject{
+  padding: 0.5em 0.5em;}
+
+  .orderCard{
+    margin: 0;
+    padding: 0;
+    max-width:100% ;
+    max-height: 100%;
+  }

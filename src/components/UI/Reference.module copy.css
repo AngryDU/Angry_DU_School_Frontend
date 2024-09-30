@@ -1,0 +1,21 @@
+.button {
+  max-width: max-content;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(50, 50, 50, 0.25);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  box-shadow: 0 0 8px rgba(50, 50, 50, 0.25);
+}

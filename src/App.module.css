@@ -1,0 +1,77 @@
+.appHistory {
+  text-align: center;
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+ .leftNavigation{
+  background: rgb(30, 159, 116);
+  min-width: 15%;
+}
+.leftNavigation ul{
+  list-style: none;
+  padding-right:10px ;
+  text-align: center;
+}
+
+.rightMainContent{
+  min-width: 85%;
+}
+.header{
+  background: rgb(93, 93, 187);
+  /* margin: 0 20px 0px 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main{
+  background-color: rgb(198, 198, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height:950px ;
+
+}
+
+.userList{
+  width: 100%;
+  position: relative;
+  top:250px;
+  right: 300px;
+  z-index: 1}
+
+.loggedInUsersList{
+  width: 100%;
+  position: relative;
+  top:250px;
+  right: 300px;
+  z-index: 1
+}
+.navButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  list-style: none;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+header li{
+  margin-left:55px ;
+}
+header a{
+  color: white;
+  text-decoration:none ;
+  margin-left:25px ;
+  padding-top: 40px;
+}
+
+.header a:hover{
+  color: rgb(56, 168, 128);
+}
+
+

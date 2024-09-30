@@ -1,0 +1,28 @@
+.welcomingWindow{
+  width: 100%;
+  height:100%;
+  background-color: rgb(73, 213, 127);
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.welcomingText{
+  width: 80%;
+  height:80%;
+  background-color: rgb(29, 5, 17);
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
+  margin: 30px;
+  font: 400 25px Roboto ;
+border-radius: 15px;
+
+}
+.titleLoginForm{
+  margin: 30px;
+}

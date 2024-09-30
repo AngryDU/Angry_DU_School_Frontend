@@ -1,0 +1,59 @@
+
+.sliderSection{
+    background-color:  rgb(92, 246, 205);;
+    max-width: 70%;
+    max-height: 60%;
+    border-radius: 5px 5px 0px 0px;
+    margin-top:15px ;
+    /* position: relative;
+    left: 300px;
+    right: 600px;
+    z-index: 1; */
+}
+.heading{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .circle{
+    inline-size: 25ch;
+    aspect-ratio: 1;
+    border-radius: 50%;
+} */
+.closingCross{
+    padding-right:15px ;
+}
+.title{
+    padding:30px ;
+}
+
+.sliders {
+    /* overflow: hidden; */
+    background-color: rgb(150, 104, 220);
+    max-width: 100%;
+    height: 80%;
+}
+
+.images {
+          /* margin: 0 auto; */
+          height: 100%;
+          width: 100%;
+          /* object-fit: contain; */        }
+
+
+.d-block w-100{
+    color: black;
+}
+
+.slideNumber{
+    background-color: rgba(0, 0, 0, 0.552);
+      color:  rgb(92, 246, 205);;
+}
+
+ .description{
+    background-color: rgba(0, 0, 0, 0.552);
+    color: rgb(92, 246, 205);
+    font-size:20px  ;
+}
+

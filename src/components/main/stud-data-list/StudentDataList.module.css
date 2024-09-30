@@ -1,0 +1,24 @@
+.studRequestFormData {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 50rem;
+    color: black;
+    background-color: aqua;
+    border-radius:5px;
+  }
+
+  .studRequestFormData ul {
+    list-style: none;
+    padding: 1.5rem;
+  list-style: none;
+}
+
+  .studRequestFormData li {
+    border: 1px solid #848181;
+    color: black;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: rgb(65, 192, 192);
+
+  }
+

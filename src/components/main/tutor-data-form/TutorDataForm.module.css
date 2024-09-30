@@ -1,0 +1,220 @@
+.form {
+    /* position: fixed;
+     top:50px ;
+    left:700px ;
+    z-index:-1 ; */
+    padding: 10px 0;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(114, 15, 96);
+    border-radius:5px;
+    align-items: center;
+    max-height:1070px;
+    color: white;
+}
+
+.form label{
+    padding: 10px 5px 3px 5px;
+    margin-top: 10px;
+    color: white;
+    font: 600 20px Roboto;
+}
+.form input,
+select {
+    width: 90%;
+    height:40px ;
+    border-radius: 5px;
+    cursor: auto;
+}
+
+
+.btnPanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+.setProfile{
+    padding-right:60px ;
+
+}
+.form select {
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.form .aboutYourself{
+    width: 90%;
+
+}
+input:valid {
+  border: 2px solid black;
+}
+input:invalid {
+  border: 2px solid red;
+}
+select:valid {
+  border: 2px solid black;
+}
+select:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  border: 2px solid orangered;
+}
+.submitBtn {
+  max-width: 150px;
+  max-height: 30px;
+  background: green;
+  align-items: center;
+}
+.aboutYourself {
+  min-width: 350px;
+  border-radius: 5px;
+  height: 120px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form input{
+    height:40px ;
+    width: 90%;
+}
+.form textarea{
+    height:160px ;
+    width: 90%;
+}
+
+/* .input-file {
+	position: relative;
+	display: inline-block;
+}
+
+.input-file-btn {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 4px;
+	background-color: #b611b95f;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	display: inline-block;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+/* Focus */
+/* .input-file input[type=file]:focus + .input-file-btn {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+} */
+
+/* Hover/active */
+/* .input-file:hover .input-file-btn {
+	background-color: #ea27bc;
+}
+.input-file:active .input-file-btn {
+	background-color: #af37eb;
+} */
+
+/* Disabled */
+/* .input-file input[type=file]:disabled + .input-file-btn {
+	background-color: #eee;
+} */
+input:valid{
+    border: 2px solid black;
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+input:invalid:required{
+    border: 2px solid orangered;
+}
+
+
+
+
+
+
+.subjectOptions, .level, .goal{
+    width: 480px;
+    border-radius:5px ;
+    border: 2px solid black;
+    height:45px ;
+
+}
+
+.aboutYourself{
+    margin-bottom:5px ;
+    height:300px ;
+    display:flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    cursor: auto;
+
+}
+.submitBtn{
+    width: 150px;
+    height: 30px;
+    align-items: center;
+}

@@ -1,0 +1,85 @@
+
+
+.container{
+     width: 100%;
+     height:100%;
+     background-color: rgb(149, 85, 209);
+    }
+
+
+.tutorFilter{
+    height:fit-content;
+        margin: 15px auto;
+}
+
+
+
+.tutorMarketWindow{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: flex-start; */
+    align-items:center;
+    padding-left:15px ;
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    overflow: auto;
+    background-color: rgb(80, 177, 117);
+
+
+}
+.heading{
+    color: rgb(140, 214, 214);
+    text-align: center;
+    font: 300 10px Roboto;
+
+    }
+p, select{
+    font: 600 23px Roboto;
+    text-align: left;
+}
+
+.all-tutors, choice-subject, search-field{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.select-filter{
+    width: 350px;
+}
+
+.tutorMarket, .selectedTutorProfiles{
+    width: 100%;
+    height:100%;
+
+ }
+ .selectedTutorProfiles{
+    /* margin: 15px auto; */
+    overflow: auto;
+
+    text-align: left;
+    align-items: right;
+  /* scroll-behavior: auto;
+  overflow-y: scroll; */
+  /* height: 630px; */
+  border-radius: 3px;}
+
+
+ .btn-choice-subject, .btn-all-tutors, .btn-search-input{
+    padding: 0.5em 0.7em; /*Расстояние от текста до края */
+    background-color: #65bba7; /* Цвет фона */
+    color: #161414; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5); /* Тень под кнопкой */
+    transition: 0.3s; /* Время перехода */
+    position: relative; /* Относительное позиционирование */
+    top: 0; left: 0; /* Исходное положение */
+    margin:10px 15px;
+    font: 600 19px Roboto;
+ }
+ .btn-choice-subject:active,.btn-all-tutors:active, btn-search-input:active {
+    box-shadow: none; /* Убираем тень */
+    top: 4px; left: 4px; /* Смещаем кнопку вниз и вправо */
+   }
+   .btn-choice-subject{
+    padding: 0.5em 0.5em;}

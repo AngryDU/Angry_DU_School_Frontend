@@ -1,0 +1,40 @@
+header{
+    background: rgb(93, 93, 187);
+     margin: 0 auto;
+     max-width: 100%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font:400  1.5rem Roboto;
+}
+.mainHomeBtn{
+    display: flex;
+    justify-content: top;
+
+}
+
+.navButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* font:400  1.5rem Roboto; */
+}
+
+header li{
+    margin-left:5px ;
+}
+header li:first-child{
+    margin-left:100px ;
+
+}
+header a{
+    color: white;
+    text-decoration:none ;
+    padding-top: 0px;
+}
+
+.header a:hover{
+    color: rgb(56, 168, 128);
+}

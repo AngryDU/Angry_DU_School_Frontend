@@ -1,0 +1,14 @@
+import React from 'react'
+import {StudentsWorking} from "../StudentsWorking.jpg";
+
+const  Image=(props)=> {
+  return (
+    <div
+    className={{
+      backgroundImage: `url(${./../.StudentsWorking.jpg})`,
+      width: "500px",
+      height: "250px"
+    }}
+  />  )
+}
+export default Image;
