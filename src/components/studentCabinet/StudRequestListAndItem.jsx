@@ -130,7 +130,7 @@ console.log(studentOrderId);
 
     const orderIdWithPaymentStatus={
       orderId:studentOrderId,
-      purchase:"PAY"
+      purchase:"PAYid"
     }
  const response = await fetch(
       `${reactAppHttp}${reactAppHost}${reactAppPort}/api${reactAppUrlApi}/orders/purchase`,
