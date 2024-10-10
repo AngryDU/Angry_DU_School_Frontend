@@ -9,7 +9,8 @@ const StudentBlock = ({onInfoBtnStudents}) => {
       <section className={styles.students} onClick={onInfoBtnStudents}>
         <h1>STUDENTS</h1>
         <Button>
-          <NavLink activeClassName={styles.active} to="/InfoForStudents">
+          <NavLink  className={styles.infoBtnStudents}
+          activeClassName={styles.active} to="/InfoForStudents">
             Info for Students
           </NavLink>
         </Button>

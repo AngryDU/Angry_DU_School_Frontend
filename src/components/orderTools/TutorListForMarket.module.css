@@ -1,23 +1,36 @@
-/* .tableWrapper {
-  margin: 15px auto;
-  background-color: rgb(73, 213, 127);
-  width: 60%;
-  border-radius: 2%;
-  height: 100%;
-} */
 
-.accord {
-  padding: 15px;
-  margin: 15px auto;
-  text-align: left;
-  align-items: right;
-  background-color: rgb(80, 177, 117);
-  height: 100%;
+.container{
 scroll-behavior: auto;
 overflow-y: scroll;
-height: 630px;
+overflow: auto;
+height:460px;
+background-color: rgb(80, 177, 117);
+}
+.accord {
+  padding: 5px;
+  margin: 5px auto;
+  text-align: left;
+  align-items: right;
+/* scroll-behavior: auto;
+overflow-y: scroll; */
 /* overflow: auto; */
 border-radius: 3px;
 
 }
 
+.pagination{
+
+}
+
+.btnContainer{
+  display: flex;
+  justify-content:flex-start;
+  margin:20px 0 0 45px;
+}
+
+.btnPageItem{
+  margin-left: 5px;
+}
+.btnPageItem:first-child{
+  margin-left: 0;
+}

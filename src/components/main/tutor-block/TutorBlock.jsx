@@ -8,7 +8,7 @@ const TutorBlock = ({ onInfoBtnTutors }) => {
       <section className={styles.tutors} onClick={onInfoBtnTutors}>
         <h1>TUTORS</h1>
         <Button>
-          <NavLink activeClassName={styles.active} to="/InfoForTutors">
+          <NavLink className={styles.infoBtnTotors} activeClassName={styles.active} to="/InfoForTutors">
             Info for Tutors
           </NavLink>
         </Button>

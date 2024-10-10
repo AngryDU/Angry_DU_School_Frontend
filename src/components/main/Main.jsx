@@ -6,10 +6,10 @@ import TutorBlock from "./tutor-block/TutorBlock.jsx";
 import InfoForStudents from "./info-students/InfoForStudents";
 // import TutorDataForm from "./tutor-data-form/TutorDataForm";
 // import TutorDataList from './tutor-data-list/TutorDataList';
-import ModalWindow from "../UI/ModalWindow";
-import { Image } from "react-bootstrap";
-import InfoForTutors from "./info-tutors/InfoForTutors";
-import { Route } from "react-router-dom/cjs/react-router-dom.min.js";
+// import ModalWindow from "../UI/ModalWindow";
+// import { Image } from "react-bootstrap";
+// import InfoForTutors from "./info-tutors/InfoForTutors";
+// import { Route } from "react-router-dom/cjs/react-router-dom.min.js";
 
 const Main = ({
   onGatheringTutorData,
@@ -46,7 +46,7 @@ const Main = ({
         </h1>
         <p>We are a bridge between you and fulfilling your dream! </p>
 
-        <div className={styles.forUsers}>
+        <section className={styles.forUsers}>
           <div className={styles.toBeaTutor}>
             <TutorBlock onInfoBtnTutors={tutorInfoHandler} />
           </div>
@@ -55,11 +55,16 @@ const Main = ({
             <StudentBlock />
           </div>
 
-            {isLoading && <p>Происходит загрузка данных пользователей...</p>}
-          <div className={styles["main-image"]}>
-            <img src={StudentsWorking} alt="студенческая работа" />
-          </div>
+          {/* {isLoading && <p>Происходит загрузка данных пользователей...</p>} */}
+        <div className={styles.picturePlace}>
+          <img
+            className={styles.backroundPicture}
+            src={StudentsWorking}
+            alt="студенческая работа"
+          />
         </div>
+        </section>
+
       </div>
     </Fragment>
   );

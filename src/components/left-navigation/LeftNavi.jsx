@@ -13,8 +13,8 @@ const LeftNavi=({createOrderButtonOn,  onFetchRequestData, onGetStudOrders, onGe
   // const []=useState();
   return (
     <div className={styles.leftNavigation}>
-    <ul >
-      <li>
+    <ul className={styles.cabinetGroup}>
+      <li className={styles.studentCabinetBtn}>
         <Button
         // fetchRequestData={fetchRequestData}
         onFetchRequestData={onFetchRequestData}
@@ -23,12 +23,12 @@ const LeftNavi=({createOrderButtonOn,  onFetchRequestData, onGetStudOrders, onGe
             activeClassName={styles.active}
             to="/StudentCabinetActivator"
           >
-            Student's Personal Cabinet
+            Student Personal Cabinet
           </NavLink>
         </Button>
       </li>
 
-     <li>
+     <li className={styles.tutorCabinetBtn}>
         <Button
           onTutorList={onTutorList}
           objDataFromTutorForm={objDataFromTutorForm}
@@ -41,7 +41,7 @@ const LeftNavi=({createOrderButtonOn,  onFetchRequestData, onGetStudOrders, onGe
             activeClassName={styles.active}
             to="/TutorCabinetActivator"
           >
-            TutorPersonalCabinet
+            Tutor  Personal Cabinet
           </NavLink>
         </Button>
       </li>

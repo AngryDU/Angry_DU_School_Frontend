@@ -25,9 +25,10 @@ const TutorMarketWithFilter = ({
   // const [showFilteredTutors, setShowFilteredTutors] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
 
   console.log(onTutorList);
-  console.log(convertData);
+  console.log(tutorsFiltered);
 
   const subjectChangeHandler = (event) => {
     setInputUserSubject(event.target.value);
@@ -40,13 +41,31 @@ const TutorMarketWithFilter = ({
     setVisualiseAllTutors(false);
   };
 
+
+
+
+
+
+  const itemsPerPage = 3;
+  const totalPages = Math.ceil(tutorsFiltered.length / itemsPerPage);
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = tutorsFiltered.slice(indexOfFirstItem, indexOfLastItem);
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+
+
+
+
+
+
+
   const getFilteredTutorsHandler = async () => {
     setIsLoading(true);
     setError(null);
     try {
       const response = await fetch(
         `${reactAppHttp}${reactAppHost}${reactAppPort}/api${reactAppUrlApi}/users/tutors/${inputUserSubject}`,
-        // `http://localhost:8081/api/v0.0.1/users/tutors/${inputUserSubject}`,
         {
           method: "GET",
           credentials: "include",
@@ -92,23 +111,12 @@ const TutorMarketWithFilter = ({
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   return (
     <div className={styles.container}>
+
+
+
+
       <section className={styles.tutorFilter}>
         <div className={styles.heading}>
           <h1 visualiseAllTutors={visualiseAllTutors}>FILTER of TUTORS</h1>
@@ -161,7 +169,11 @@ const TutorMarketWithFilter = ({
           </button>{" "}
         </div>
       </section>
-<section className={styles.tutorMarketWindow} >
+
+
+
+
+      <section className={styles.tutorMarketWindow}>
         <div className={styles.tutorMarket}>
           {visualiseAllTutors && (
             <TutorListForMarket
@@ -187,8 +199,8 @@ const TutorMarketWithFilter = ({
         {!visualiseAllTutors && (
           <div className={styles.selectedTutorProfiles}>
             {!isLoading &&
-              tutorsFiltered.length !== 0 &&
-              tutorsFiltered.map((item) => (
+              currentItems.length !== 0 &&
+              currentItems.map((item) => (
                 <OrderRequestTutMarket
                   id={item.id}
                   status={item.status}
@@ -207,9 +219,20 @@ const TutorMarketWithFilter = ({
                   onFetchRequestData={onFetchRequestData}
                 />
               ))}
+            <div>
+              {[...Array(totalPages).keys()].map((pageNumber) => (
+                <button
+                  key={pageNumber + 1}
+                  onClick={() => paginate(pageNumber + 1)}
+                  className={currentPage === pageNumber + 1 ? "active" : ""}
+                >
+                  {pageNumber + 1}
+                </button>
+              ))}
+            </div>
           </div>
         )}
-        </section>
+      </section>
     </div>
   );
 };

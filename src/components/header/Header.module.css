@@ -1,16 +1,18 @@
 header{
     background: rgb(93, 93, 187);
-     margin: 0 auto;
+     margin: auto;
+     /* padding: 0; */
      max-width: 100%;
      display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    font:400  1.5rem Roboto;
+    font:400 15px Roboto;
+    text-align: center;
 }
 .mainHomeBtn{
     display: flex;
     justify-content: top;
+    background: green;
 
 }
 
@@ -19,16 +21,21 @@ header{
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    /* font:400  1.5rem Roboto; */
-}
-
-header li{
-    margin-left:5px ;
-}
-header li:first-child{
+    background: orange;
     margin-left:100px ;
 
 }
+
+header ul li{
+    margin-left:20px ;
+}
+header ul li:first-child{
+    margin-left:0;
+}
+/* header li:first-child{
+    margin-left:80px ;
+
+} */
 header a{
     color: white;
     text-decoration:none ;

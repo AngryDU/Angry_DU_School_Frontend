@@ -2,14 +2,19 @@
 
 .container{
      width: 100%;
-     height:100%;
-     background-color: rgb(149, 85, 209);
+     /* max-height:100%; */
+     background-color: rgb(80, 177, 117);
+     display: flex;
+     flex-direction:column;
+     justify-content: space-between;
+
     }
 
 
 .tutorFilter{
     height:fit-content;
-        margin: 15px auto;
+    background-color: rgb(149, 85, 209);
+
 }
 
 
@@ -20,10 +25,10 @@
     /* justify-content: flex-start; */
     align-items:center;
     padding-left:15px ;
-    scroll-behavior: auto;
+
+    /* scroll-behavior: auto;
     overflow-y: scroll;
-    overflow: auto;
-    background-color: rgb(80, 177, 117);
+    overflow: auto; */
 
 
 }
@@ -50,7 +55,7 @@ p, select{
 
 .tutorMarket, .selectedTutorProfiles{
     width: 100%;
-    height:100%;
+    /* max-height: 100%; */
 
  }
  .selectedTutorProfiles{

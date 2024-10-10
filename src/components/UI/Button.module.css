@@ -5,9 +5,10 @@
   color: white;
   background-image: linear-gradient(to right, #8360c3, #2ebf91);
   border-radius: 4px;
-  box-shadow: 0 0 4px rgba(50, 50, 50, 0.25);
+  box-shadow: 5px 4px 10px 2px rgba(50, 30, 30, 1);
   cursor: pointer;
   margin-top: 15px;
+  border: none;
 }
 
 .button:focus {
