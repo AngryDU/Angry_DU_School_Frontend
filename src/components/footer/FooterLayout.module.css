@@ -1,0 +1,30 @@
+/* .container{
+    background-color: rgb(93, 93, 187);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items:baseline;
+    /* margin: 0 auto; */
+    /* width: 100%;
+    margin: 0 auto;
+background-color: pink;
+}
+
+footer h1{
+    font: 600 20px Roboto;
+    line-height: 15px;
+    padding:5px 0;
+
+}
+.contacts, .address, .copyright{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items:flex-start;
+    list-style: none;
+}
+.contacts p, .address  p, .copyright p{
+    line-height: 5px;
+
+} */ 
+

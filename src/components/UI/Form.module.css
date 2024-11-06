@@ -1,0 +1,21 @@
+.loginForm {
+    padding: 10px;
+    width: 33%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(193, 236, 193);
+    border-radius:5px;
+    align-items: center;
+    max-height: 100%;
+    position: relative;
+    z-index: 1; }
+
+  .actions {
+    text-align: center;
+  }
+
+  .inputError {
+    border: 3px solid red;
+  }

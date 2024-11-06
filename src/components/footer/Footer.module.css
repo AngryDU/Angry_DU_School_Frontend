@@ -1,0 +1,92 @@
+.container{
+    margin:0 auto;
+    background-color: rgb(93, 93, 187);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    align-items:baseline;
+    width: 100%;
+    text-align: center;
+
+}
+ .contactsInfo, .addressInfo, .copyrightInfo{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items:baseline;
+    color: white;
+}
+
+footer h1{
+    font: 400 15px Roboto;
+margin-bottom: 0;
+}
+.contacts, .address, .copyright{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items:baseline;
+    list-style: none;
+    line-height: 2px;
+    margin-left: 10px;
+
+}
+.contacts p,  .address  p, .copyright p{
+    margin-left:0px ;
+    font: 400 12px Roboto;
+line-height: 2px;
+
+
+}
+
+
+/*///////////////////////////////////// */
+.mapPlace, .emailPlace, .mTCMessengers, .a1SocialMedia{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    text-decoration: none;
+}
+
+.mTCMessengers a:hover, .a1SocialMedia a:hover, .emailPlace a:hover, .mapPlace a:hover{
+    transform: scale(1.5);
+}
+.mTCMessengers .phone, .a1SocialMedia .phone, .emailPlace .email, .mapPlace .map{
+    margin-left:0 ;
+
+}
+.mTCMessengers p, .a1SocialMedia p, .emailPlace p, .mapPlace p, .impressum p, .bankData p, .licence p{
+    margin: 10px 0 0 10px;
+
+}
+.licence p{
+    margin-top: 15px;}
+.mapPlace a, .emailPlace a, .impressum a{
+    text-decoration: none;
+    color: white;
+line-height: 2px;
+
+}
+
+.impressum{
+    padding-left:10px ;
+}
+.mapPlace p:hover, .emailPlace a:hover{
+    color: black;
+
+}
+.map{
+    width: 10px;
+    height: 17px;
+    margin-left:10px ;
+}
+.email, .phone{
+    width: 17px;
+    height: 13px;
+    margin-left:10px ;
+}
+.instagram, .viber, .whatsapp, .vk, .facebook, .skype{
+    width: 17px;
+    height: 17px;
+    margin-left:10px ;
+}

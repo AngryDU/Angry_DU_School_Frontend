@@ -1,0 +1,92 @@
+
+.container{
+   width: 100%;
+    background-color: rgb(80, 177, 117);
+    display: flex;
+     flex-direction:column;
+     justify-content: space-between;
+     align-items: baseline;
+     /* height: 678px; */
+
+     margin: auto 0;
+     font:400 15px Roboto;
+  /* overflow: auto; */
+
+
+   }
+
+.filter{
+  background-color: rgb(149, 85, 209);
+   top: 0;
+   width: 100%;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   align-items: baseline;
+   padding: 90px 0 0 0;
+
+}
+.all-orders{
+  margin: 0 auto 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 47%;
+}
+.all-orders p{   font:400 15px Roboto;
+}
+
+.all-orders .btn-all-orders{
+  padding: 0.5em 0.7em;
+  background-color: #65bba7;
+  color: #161414;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  position: relative;
+  top: 0; left: 0;
+  margin: 0 15px;
+  font:400 15px Roboto;
+  width: 110px;
+  border: none;
+}
+.all-orders .btn-all-orders:active{
+  box-shadow: none;
+  top: 4px; left: 4px;
+}
+
+
+.listPlusDialogmodal{
+  width: 100%;
+  background-color: rgb(80, 177, 117);
+   display: flex;
+   margin: 15px auto;
+
+}
+.dialogModalPlace{
+  margin: 10px 5px 0 10px ;
+  width: 30%;
+
+}
+
+
+.dialogModal{
+  width: 270px;
+  height: 450px;
+ position: fixed;
+ bottom: 150px;
+ left: 400px;
+}
+
+
+.test{
+  width: 100%;
+  background-color: aqua;
+}
+
+.studOrderList {
+  width: 70%;
+  margin: 5px 0 0 5px ;
+  background-color: rgb(80, 177, 117);
+  /* min-height: 100%; */
+
+}

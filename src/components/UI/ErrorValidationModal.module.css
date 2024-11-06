@@ -1,0 +1,36 @@
+  .modal {
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #ff9966, #ff5e62);
+    border-radius:5px ;
+    height:350px;
+
+   }
+
+  .header {
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    padding: 2rem;
+  }
+
+  .header h2 {
+    margin: 0;
+    color: white;
+  }
+
+  .content {
+    padding: 2rem;
+  }
+
+  .actions {
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 30rem);
+      width: 50rem;
+    }
+  }

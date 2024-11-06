@@ -1,0 +1,164 @@
+
+
+.container{
+    max-width: 100%;
+     /* max-height:510px; */
+    background-color: rgb(80, 177, 117);
+    display: flex;
+     flex-direction:column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     margin:0 auto;
+     min-height: 680px;
+
+     height:auto;
+        margin-bottom:20px ;
+    }
+
+.filter{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+
+}
+
+
+.tutorFilter{
+    /* height:fit-content; */
+    background-color: rgb(149, 85, 209);
+    padding:70px 0 0 0;
+       /* position: fixed; */
+    width: 100%;
+    height:auto;
+
+
+}
+
+
+
+.heading {
+    color: rgb(140, 214, 214);
+    margin-top:5px ;
+    text-align: center;
+    font: 600 20px Roboto;
+
+    }
+
+.all-tutors, .choice-subject{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+ /* margin-left:50px ; */
+}
+
+.all-tutors p{
+  font:400 15px Roboto;
+  margin-left: 0;
+}
+
+
+
+.btn-choice-subject, .btn-all-tutors{
+  padding: 0.5em 0.7em;
+  background-color: #65bba7;
+  color: #161414;
+  border: none;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  position: relative;
+  top: 0; left: 0;
+  margin: 0  15px;
+  font:400 15px Roboto;
+}
+.btn-choice-subject:active,.btn-all-tutors:active, btn-search-input:active {
+  box-shadow: none;
+  top: 4px; left: 4px;
+ }
+
+
+
+  .choice-subject .select-filter{
+    border:none;
+    /* max-width: 100%; */
+    height: 30px;
+    padding: 0.4em 0.7em;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+    font: 400 15px Roboto;
+    color: #838383;
+    width: 200px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tutorMarketWindow{
+    width:100%;
+    padding:  0;
+    background-color: rgb(80, 177, 117);
+    overflow: auto;
+    margin:0 auto;
+
+
+
+
+}
+.filteredTutors{
+    padding-left: 30px;
+height: 100%;
+
+
+}
+
+.selectedTutorProfiles{
+  padding: 8px 1px 250px 1px;
+  margin: 5px 0 0 0 ;
+
+}
+.tutorMarket, .selectedTutorProfiles{
+    width: 100%;
+    align-items:flex-start;
+
+ }
+
+
+ .selectedTutorProfiles{
+    text-align: left;
+  border-radius: 3px;
+ }
+
+
+
+    .btnContainer{
+        display: flex;
+        justify-content:flex-start;
+        margin:0 0 5px 5px;
+      }
+
+      .btnPageItem{
+        margin-left: 5px;
+      }
+      .btnPageItem:first-child{
+        margin-left: 0;
+      }
+      .loadingAnnounceAllTutors, loadingAnnounceFilteredTotors{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }

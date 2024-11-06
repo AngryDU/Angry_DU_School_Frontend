@@ -1,0 +1,27 @@
+
+.cabinetGroup{
+    list-style-type:none;
+    margin-left:20px;
+    padding:5px;
+    width: 100%;
+
+}
+
+  .leftNavigation .cabinetGroup .studentCabinetBtn{
+    color: white;
+    list-style: none;
+
+}
+.leftNavigation ul{
+  list-style: none;
+  padding-right:10px ;
+  text-align: center;
+}
+
+.studentCabinetBtn{
+  margin-bottom: 0;
+  margin-top:12px;
+}
+.tutorCabinetBtn{
+  margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.8);
+  /* overflow: scroll; */
+
+}
+
+.centred {
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.modal {
+  width: 100%;
+  max-width: 400px;
+height: auto;
+  position: fixed;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    95.2deg,
+    rgba(173, 252, 234, 1) 26.8%,
+    rgb(135, 141, 141) 34%,
+    rgb(194, 155, 219) 37%
+
+  );
+ }
+
+
+

@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+    font:400 15px Roboto;
+    padding-right: 5px;
+    color: white;
+    position: fixed;
+
+
+
+
+}
+.mainHomeBtn{
+    color: white;
+    text-decoration:none ;
+    margin-left:5px ;
+
+}
+
+
+.navButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* background: orange; */
+    margin-left:265px ;
+    color: white;
+
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+
+}
+.navButtons li{
+    margin-left:20px;
+    color: white;
+
+}
+.navButtons li:first-child{
+    margin-left:0;
+}
+/* header li:first-child{
+    margin-left:80px ;
+
+} */
+
+.header a:hover{
+    color: rgb(14, 43, 33);
+}

@@ -1,0 +1,66 @@
+
+.container{
+  height: auto;
+/* scroll-behavior: auto; */
+/* overflow-y: scroll; */
+overflow: auto;
+width: 100%;
+margin-top:15px ;
+background-color: rgb(80, 177, 117);
+min-height: 550px;
+
+    }
+
+.tutorProfiles ul{
+      margin: 0;
+    }
+
+.accord {
+  padding: 5px 0;
+  margin: 5px auto;
+border-radius: 3px;
+
+}
+
+.pagination{
+  margin: 0;
+  padding: 0;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content:flex-start;
+  margin:0 0 0 40px;
+}
+
+.btnPageItem{
+  margin-left: 5px;
+
+}
+.btnPageItem:first-child{
+  margin-left: 0;
+}
+ .btnPageItem button {
+  max-width: max-content;
+  font: inherit;
+  padding: 0.2rem 0.6rem;
+  color: white;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  border-radius: 4px;
+  box-shadow: 5px 4px 10px 2px rgba(50, 30, 30, 1);
+  cursor: pointer;
+  margin-top: 5px;
+  /* padding: 10px; */
+
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  box-shadow: 0 0 8px rgba(50, 50, 50, 0.25);
+}

@@ -1,0 +1,68 @@
+.studentForm {
+  padding: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(60, 5, 92);
+  border-radius: 5px;
+  align-items:center;
+  max-height:550px;
+  color: white;
+}
+
+.studentForm label {
+  color: white;
+  font: 400 15px Roboto;
+  margin-top:10px ;
+}
+
+.studentForm input,
+.studentForm select {
+  height: 40px;
+  border-radius: 5px;
+  cursor: auto;
+  width: 90%;
+}
+.btnPanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+.setProfile{
+    padding-right:60px ;
+
+}
+.studentForm select {
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.aboutYourself{
+    width: 90%;
+ border-radius: 5px;
+  height: 100px;
+}
+input:valid {
+  border: 2px solid black;
+}
+input:invalid {
+  border: 2px solid red;
+}
+select:valid {
+  border: 2px solid black;
+}
+select:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  border: 2px solid red;
+}
+.submitBtn {
+  max-width: 150px;
+  max-height: 30px;
+  background: green;
+  align-items: center;
+}
