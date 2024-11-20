@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       {/* <div className={styles.footer}> */}
-
+//rrvrvrvvr
       <div className={styles.contactsInfo}>
         <h1>Contacts:</h1>
         <div className={styles.contacts}>
